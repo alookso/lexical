@@ -274,6 +274,14 @@ export function registerPlainText(editor: LexicalEditor): () => void {
           return false;
         }
 
+        if (
+          event.keyCode === 8 &&
+          navigator.language === 'ko-KR' &&
+          /iPad|iPhone|iPod/.test(navigator.userAgent)
+        ) {
+          return false;
+        }
+
         event.preventDefault();
         return editor.dispatchCommand(DELETE_CHARACTER_COMMAND, true);
       },
