@@ -7,12 +7,14 @@
  */
 
 import {useLexicalComposerContext} from '@lexical/react/LexicalComposerContext';
+import {useCanShowPlaceholder} from '@lexical/react/src/shared/useCanShowPlaceholder';
+import {
+  ErrorBoundaryType,
+  useDecorators,
+} from '@lexical/react/src/shared/useDecorators';
+import {usePlainTextSetup} from '@lexical/react/src/shared/usePlainTextSetup';
 import useLexicalEditable from '@lexical/react/useLexicalEditable';
 import * as React from 'react';
-
-import {useCanShowPlaceholder} from './shared/useCanShowPlaceholder';
-import {ErrorBoundaryType, useDecorators} from './shared/useDecorators';
-import {usePlainTextSetup} from './shared/usePlainTextSetup';
 
 export function PlainTextPlugin({
   contentEditable,
