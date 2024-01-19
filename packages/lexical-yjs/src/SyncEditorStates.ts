@@ -18,7 +18,7 @@ import {
   $isTextNode,
   $setSelection,
 } from 'lexical';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 import {Text as YText, YEvent, YMapEvent, YTextEvent, YXmlEvent} from 'yjs';
 
 import {Binding, Provider} from '.';

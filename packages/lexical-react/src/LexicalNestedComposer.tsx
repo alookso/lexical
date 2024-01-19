@@ -20,9 +20,9 @@ import {
   LexicalNode,
   LexicalNodeReplacement,
 } from 'lexical';
+import invariant from 'packages/shared/src/invariant';
 import * as React from 'react';
 import {ReactNode, useContext, useEffect, useMemo, useRef} from 'react';
-import invariant from 'shared/invariant';
 
 export function LexicalNestedComposer({
   initialEditor,

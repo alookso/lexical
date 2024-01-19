@@ -16,7 +16,7 @@ import type {
 import type {NodeKey, NodeMap} from './LexicalNode';
 import type {ElementNode} from './nodes/LexicalElementNode';
 
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {
   $isDecoratorNode,

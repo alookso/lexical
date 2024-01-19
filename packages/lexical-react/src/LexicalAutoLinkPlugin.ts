@@ -27,8 +27,8 @@ import {
   $isTextNode,
   TextNode,
 } from 'lexical';
+import invariant from 'packages/shared/src/invariant';
 import {useEffect} from 'react';
-import invariant from 'shared/invariant';
 
 type ChangeHandler = (url: string | null, prevUrl: string | null) => void;
 

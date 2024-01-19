@@ -22,8 +22,8 @@ import type {
 } from '../LexicalNode';
 import type {BaseSelection, RangeSelection} from '../LexicalSelection';
 
-import {IS_FIREFOX} from 'shared/environment';
-import invariant from 'shared/invariant';
+import {IS_FIREFOX} from 'packages/shared/src/environment';
+import invariant from 'packages/shared/src/invariant';
 
 import {
   COMPOSITION_SUFFIX,

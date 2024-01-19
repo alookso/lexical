@@ -7,9 +7,9 @@
  */
 
 import {useLexicalComposerContext} from '@lexical/react/LexicalComposerContext';
+import useLayoutEffect from 'packages/shared/src/useLayoutEffect';
 import * as React from 'react';
 import {useCallback, useState} from 'react';
-import useLayoutEffect from 'shared/useLayoutEffect';
 
 export type Props = {
   ariaActiveDescendant?: React.AriaAttributes['aria-activedescendant'];

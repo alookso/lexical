@@ -12,7 +12,7 @@ import type {DecoratorNode, NodeKey, NodeMap} from 'lexical';
 import type {XmlElement} from 'yjs';
 
 import {$getNodeByKey, $isDecoratorNode} from 'lexical';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {syncPropertiesFromLexical, syncPropertiesFromYjs} from './Utils';
 

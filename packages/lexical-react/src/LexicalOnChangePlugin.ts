@@ -9,7 +9,7 @@
 import type {EditorState, LexicalEditor} from 'lexical';
 
 import {useLexicalComposerContext} from '@lexical/react/LexicalComposerContext';
-import useLayoutEffect from 'shared/useLayoutEffect';
+import useLayoutEffect from 'packages/shared/src/useLayoutEffect';
 
 export function OnChangePlugin({
   ignoreHistoryMergeTagChange = true,

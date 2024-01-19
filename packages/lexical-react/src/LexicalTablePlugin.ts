@@ -35,8 +35,8 @@ import {
   DEPRECATED_$getNodeTriplet,
   DEPRECATED_$isGridRowNode,
 } from 'lexical';
+import invariant from 'packages/shared/src/invariant';
 import {useEffect} from 'react';
-import invariant from 'shared/invariant';
 
 export function TablePlugin({
   hasCellMerge = true,

@@ -10,7 +10,7 @@ import type {TextNode} from '.';
 import type {LexicalEditor} from './LexicalEditor';
 import type {BaseSelection} from './LexicalSelection';
 
-import {IS_FIREFOX} from 'shared/environment';
+import {IS_FIREFOX} from 'packages/shared/src/environment';
 
 import {
   $getSelection,

@@ -22,8 +22,8 @@ import {
   $isTextNode,
   $setSelection,
 } from 'lexical';
+import invariant from 'packages/shared/src/invariant';
 import {useEffect} from 'react';
-import invariant from 'shared/invariant';
 
 type OptionalProps = {
   remainingCharacters?: (characters: number) => void;

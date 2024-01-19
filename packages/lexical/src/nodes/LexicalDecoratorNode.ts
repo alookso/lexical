@@ -10,7 +10,7 @@ import type {KlassConstructor, LexicalEditor} from '../LexicalEditor';
 import type {NodeKey} from '../LexicalNode';
 
 import {EditorConfig} from 'lexical';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {LexicalNode} from '../LexicalNode';
 

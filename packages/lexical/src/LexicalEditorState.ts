@@ -11,7 +11,7 @@ import type {LexicalNode, NodeMap, SerializedLexicalNode} from './LexicalNode';
 import type {BaseSelection} from './LexicalSelection';
 import type {SerializedRootNode} from './nodes/LexicalRootNode';
 
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {$isElementNode, SerializedElementNode} from '.';
 import {readEditorState} from './LexicalUpdates';

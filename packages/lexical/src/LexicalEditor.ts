@@ -14,7 +14,7 @@ import type {
   NodeKey,
 } from './LexicalNode';
 
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {$getRoot, $getSelection, TextNode} from '.';
 import {FULL_RECONCILE, NO_DIRTY_NODES} from './LexicalConstants';

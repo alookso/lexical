@@ -9,7 +9,7 @@
 import type {LexicalNode, Spread} from 'lexical';
 
 import {$findMatchingParent} from '@lexical/utils';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {
   $createListItemNode,

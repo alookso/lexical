@@ -26,7 +26,7 @@ import {
   createEditor,
   NodeKey,
 } from 'lexical';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 import {Doc, Map as YMap, XmlElement, XmlText} from 'yjs';
 
 import {

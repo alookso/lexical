@@ -16,7 +16,7 @@ import {
   $isElementNode,
   $isTextNode,
 } from 'lexical';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 import {YMap} from 'yjs/dist/src/internals';
 
 import {CollabDecoratorNode} from './CollabDecoratorNode';

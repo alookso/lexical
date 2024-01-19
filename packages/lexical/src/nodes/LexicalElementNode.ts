@@ -14,7 +14,7 @@ import type {
 } from '../LexicalSelection';
 import type {KlassConstructor, Spread} from 'lexical';
 
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {$isTextNode, TextNode} from '../';
 import {

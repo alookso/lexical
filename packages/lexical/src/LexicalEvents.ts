@@ -18,8 +18,8 @@ import {
   IS_FIREFOX,
   IS_IOS,
   IS_SAFARI,
-} from 'shared/environment';
-import invariant from 'shared/invariant';
+} from 'packages/shared/src/environment';
+import invariant from 'packages/shared/src/invariant';
 
 import {
   $getPreviousSelection,

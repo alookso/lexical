@@ -25,9 +25,9 @@ import {
   LexicalNode,
   LexicalNodeReplacement,
 } from 'lexical';
+import {CAN_USE_DOM} from 'packages/shared/src/canUseDOM';
 import {useMemo} from 'react';
 import * as React from 'react';
-import {CAN_USE_DOM} from 'shared/canUseDOM';
 import useLayoutEffect from 'shared/useLayoutEffect';
 
 const HISTORY_MERGE_OPTIONS = {tag: 'history-merge'};

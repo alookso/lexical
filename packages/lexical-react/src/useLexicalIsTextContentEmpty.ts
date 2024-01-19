@@ -9,8 +9,8 @@
 import type {LexicalEditor} from 'lexical';
 
 import {$isRootTextContentEmptyCurry} from '@lexical/text';
+import useLayoutEffect from 'packages/shared/src/useLayoutEffect';
 import {useState} from 'react';
-import useLayoutEffect from 'shared/useLayoutEffect';
 
 export function useLexicalIsTextContentEmpty(
   editor: LexicalEditor,

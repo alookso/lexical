@@ -69,7 +69,7 @@ import {
 } from './CodeHighlightNode';
 
 import {$isCodeNode, CodeNode} from './CodeNode';
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 type TokenContent = string | Token | (string | Token)[];
 

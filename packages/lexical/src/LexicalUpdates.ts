@@ -19,7 +19,7 @@ import type {
 import type {SerializedEditorState} from './LexicalEditorState';
 import type {LexicalNode, SerializedLexicalNode} from './LexicalNode';
 
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {$isElementNode, $isTextNode, SELECTION_CHANGE_COMMAND} from '.';
 import {FULL_RECONCILE, NO_DIRTY_NODES} from './LexicalConstants';

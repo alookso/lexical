@@ -8,7 +8,7 @@
 
 import type {DOMConversionMap, NodeKey} from '../LexicalNode';
 
-import invariant from 'shared/invariant';
+import invariant from 'packages/shared/src/invariant';
 
 import {IS_UNMERGEABLE} from '../LexicalConstants';
 import {LexicalNode} from '../LexicalNode';
