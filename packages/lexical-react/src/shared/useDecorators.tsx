@@ -8,10 +8,11 @@
 
 import type {LexicalEditor} from 'lexical';
 
-import useLayoutEffect from 'packages/shared/src/useLayoutEffect';
 import {Suspense, useEffect, useMemo, useState} from 'react';
 import * as React from 'react';
 import {createPortal, flushSync} from 'react-dom';
+
+import useLayoutEffect from '../../../shared/src/useLayoutEffect';
 
 type ErrorBoundaryProps = {
   children: JSX.Element;
